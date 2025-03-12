@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid blue;
+  margin: 10px 10px;
+}
+.menu-icon {
+  height: 40px;
+  margin: 10px 10px;
+}
+.knp-logo {
+  height: 40px;
+}
+.header-div1 {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+}
+.header-div2{
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  width: 0;
+}
+.input-search{
+  height: 35px;
+  display: flex;
+  flex: 1;
+  padding-left: 14px;
+  font-size: 16px;
+  border: 1px solid rgb(172, 163, 163);
+  border-radius: 2px;
+  box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+.input-search::placeholder{
+  font-family: roboto,arial;
+  font-size: 16px;
+}
+.button-search{
+  margin-left: -1px;
+  border: 1px solid rgb(172, 163, 163);
+  height: 39px;
+  width: 60px;
+  border-radius: 2px;
+  background-color: rgb(240, 240, 240);
+  margin-right: 10px;
+}
+.search-icon{
+  background-color: rgb(79, 73, 73);
+  color: gray;
+  height: 24px;
+}
+.voice-icon{
+  height: 25px;
+}
+.button-voice{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(242, 236, 236);
+}
+.header-div3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+.cart-icon{
+  height: 30px;
+  width: 30px;
+}
+.notification-icon{
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+.account-icon{
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+}

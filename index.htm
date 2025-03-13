@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="main.js"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SuperSaver.store</title>
 </head>
@@ -11,7 +11,15 @@
  <h1>SUPER SAVER MARKET PLACE</h1>
  <div class="header">
   <div class="header-div1">
-    <img class="menu-icon" src="img/icons/menu.png" alt="menu">
+    <img onclick="myfunction()"
+     class="menu-icon" src="img/icons/menu.png" alt="menu">
+     <div id="myDropdown" class="dropmenu">
+      <a href="#">Appliances</a>
+      <a href="#">Home & Kitchen</a>
+      <a href="#">Electronics</a>
+      <a href="#">Health & Beauty</a>
+      <a href="#">Fashions</a>
+     </div>
     <img class="knp-logo" src="img/icons/knp logo.jpg" alt="knp traders logo">
   </div>
   <div class="header-div2">
@@ -28,6 +36,14 @@
     <img class="notification-icon" src="img/icons/notification.png" alt="">
     <img class="account-icon" src="img/icons/account.png" alt="">
   </div>
+ </div>
+ <div class="div-buttons">
+  <button class="butt1">Whole sellers</button>
+  <button class="butt1">Retailers</button>
+  <button class="butt1">Vacants rentals</button>
+  <button class="butt1">Transportation</button>
+  <button class="butt1">Technical services</button>
+  <button class="butt1">Jobs</button>
  </div>
 </body>
 </html>
